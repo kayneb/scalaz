@@ -11,6 +11,7 @@ package object std {
   object tuple extends ToTupleOps
   object string extends ToStringOps
   object option extends ToOptionOps with ToOptionIdOps
+  object optional extends ToJavaOptionalOps
   object either extends ToEitherOps
   object map extends ToMapOps
   object sortedMap extends ToSortedMapOps
